@@ -1,27 +1,22 @@
 # Azure Stay Revenue Analysis 🏨
 
-## Problem
-Azure Stay is experiencing revenue stagnation despite stable occupancy, indicating inefficiencies in pricing and channel strategy.
+## 📌 ปัญหา (Problem)
+โรงแรม Azure Stay กำลังประสบปัญหา “รายได้ไม่เติบโต (Revenue Stagnation)” แม้ว่าจะมีอัตราการเข้าพัก (Occupancy) อยู่ในระดับที่ดี  
+ซึ่งบ่งชี้ถึงความไม่มีประสิทธิภาพในด้านการตั้งราคา (Pricing Strategy) และการบริหารช่องทางการขาย (Booking Channels)  
+ส่งผลให้ค่า RevPAR ต่ำกว่าคู่แข่ง และกระทบต่อความสามารถในการทำกำไรของธุรกิจ
 
-## Objective
-- Increase RevPAR by 10% within 3 months
-- Optimize pricing across booking channels
-- Reduce dependency on low-profit channels (OTA)
+---
 
-## Business Questions
-- Which booking channels generate the highest RevPAR?
-- Are rooms underpriced during high-demand periods?
-- Which customer segments are less profitable?
+## 🎯 วัตถุประสงค์ (Objective)
+- เพิ่ม RevPAR ขึ้น 10% ภายใน 3 เดือน  
+- ปรับกลยุทธ์การตั้งราคาให้เหมาะสมกับแต่ละช่องทางการจอง  
+- ลดการพึ่งพาช่องทางที่มีต้นทุนสูง (เช่น OTA)
 
-## Hypotheses
-1. OTA channels generate lower Net RevPAR due to high commission rates
-2. Discounted rate codes increase occupancy but reduce ADR
-3. Weekend demand is high but pricing is not optimized
+---
 
-## Status
-- [x] Project setup
-- [ ] Dataset generation
-- [ ] Data cleaning
-- [ ] EDA
-- [ ] Insights
-- [ ] Dashboard
+## ❓ คำถามทางธุรกิจ (Business Questions)
+- ช่องทางการจอง (Booking Channel) ใดสร้างรายได้สูงสุดจริง?  
+- มีช่วงเวลาใดที่โรงแรมตั้งราคาต่ำเกินไปหรือไม่?  
+- ลูกค้ากลุ่มใดสร้างรายได้น้อยกว่าที่ควร?  
+
+---
