@@ -1,0 +1,5 @@
+rate_code_id,rate_name,description,is_commissionable
+RC_RACK,Rack Rate,Standard Walk-in Rate,False
+RC_PROMO,Seasonal Promo,10% Off Standard,True
+RC_NONREF,Non-Refundable,"Prepaid, No Cancellation",True
+RC_CORP,Corporate Negotiated,Fixed Rate for Partners,False
