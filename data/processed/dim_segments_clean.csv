@@ -1,0 +1,5 @@
+﻿segment_id,segment_name
+SEG_LEI,Leisure
+SEG_BUS,Business
+SEG_TRA,Transient
+SEG_GRP,Group
