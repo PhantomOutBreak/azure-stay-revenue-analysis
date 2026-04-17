@@ -61,7 +61,7 @@ Azure Stay กำลังเผชิญปัญหา **Revenue Stagnation**
 
 ---
 
-####🔹 H2: Pricing Effect
+### 🔹 H2: Pricing Effect
 - วิเคราะห์ **ADR และ Net ADR รวมถึง Occupancy แยกตาม Rate Code**  
 - เปรียบเทียบ Discount vs Non-discount  
 - ตรวจสอบว่า Occupancy เพิ่มขึ้นแลกกับรายได้สุทธิที่ลดลงหรือไม่  
