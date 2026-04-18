@@ -130,6 +130,14 @@ Direct และ Corporate มีรายได้เฉลี่ยต่อ b
 
 ![Average Revenue by Booking Channel](images/h1_channel_average_revenue.png)
 
+📌 **Insight:**  
+ช่องทาง **CH_COR (Corporate)** มีรายได้เฉลี่ยต่อ booking สูงที่สุด รองลงมาคือ **CH_DIR (Direct)**  
+ขณะที่ช่องทาง **CH_EXP** และ **CH_BKG** ซึ่งเป็น OTA มีรายได้เฉลี่ยต่ำกว่า
+
+📌 **Impact:**  
+ผลลัพธ์นี้สะท้อนว่า OTA แม้ช่วยเพิ่มการเข้าถึงลูกค้า แต่มีต้นทุนค่าคอมมิชชั่นที่ทำให้รายได้สุทธิต่อ booking ต่ำกว่า  
+ดังนั้นโรงแรมควรเพิ่มสัดส่วน **Direct Booking** และ **Corporate Booking** เพื่อลดต้นทุนและเพิ่มกำไรสุทธิในระยะยาว
+
 ---
 
 ## 2) Pricing Analysis
@@ -140,8 +148,26 @@ Promotion ช่วยเพิ่มจำนวนการจอง แต่
 ### Average Revenue by Rate Code
 ![Average Revenue by Rate Code](images/h2_ratecode_average_revenue.png)
 
+📌 **Insight:**  
+**RC_RACK** มีรายได้เฉลี่ยต่อ booking สูงที่สุด ขณะที่ **RC_PROMO** มีรายได้เฉลี่ยต่ำที่สุด  
+สะท้อนว่าราคาปกติสามารถสร้างรายได้ต่อ booking ได้ดีกว่าโปรโมชั่น
+
+📌 **Impact:**  
+โรงแรมควรใช้โปรโมชั่นอย่างระมัดระวัง และหลีกเลี่ยงการใช้ส่วนลดในช่วงที่ demand สูง  
+เพื่อไม่ให้สูญเสียโอกาสในการสร้างรายได้ต่อ booking ที่มากขึ้น
+
+---
+
 ### Number of Bookings by Rate Code
 ![Number of Bookings by Rate Code](images/number_of_bookings_by_rate_code.png)
+
+📌 **Insight:**  
+**RC_PROMO** มีจำนวนการจองสูงที่สุด รองลงมาคือ **RC_NONREF**  
+ในขณะที่ **RC_RACK** มีจำนวนการจองต่ำที่สุด
+
+📌 **Impact:**  
+โปรโมชั่นช่วยเพิ่ม demand ได้อย่างชัดเจน แต่เมื่อนำไปพิจารณาร่วมกับกราฟรายได้ จะพบว่า demand ที่เพิ่มขึ้นไม่ได้แปลว่ารายได้ต่อ booking จะดีขึ้นเสมอ  
+ดังนั้นโรงแรมควรบริหาร Rate Code ให้สมดุลระหว่าง **Volume** และ **Value**
 
 ---
 
@@ -153,8 +179,26 @@ Weekday มีจำนวนการจองสูงกว่า
 ### Number of Bookings by Day Type
 ![Number of Bookings by Day Type](images/h3_daytype_bookings.png)
 
+📌 **Insight:**  
+**Weekday** มีจำนวนการจองสูงกว่า **Weekend** อย่างชัดเจน  
+สะท้อนว่ารายได้ของโรงแรมในวันธรรมดาถูกขับเคลื่อนด้วยปริมาณการจอง (Volume-driven)
+
+📌 **Impact:**  
+โรงแรมควรเน้นกลยุทธ์เพิ่ม occupancy และบริหาร demand ในช่วง Weekday  
+เช่น การทำแพ็กเกจสำหรับลูกค้าธุรกิจหรือการส่งเสริมการจองล่วงหน้า
+
+---
+
 ### Average Revenue by Day Type
 ![Average Revenue by Day Type](images/h3_daytype_revenue.png)
+
+📌 **Insight:**  
+แม้ **Weekend** จะมีจำนวนการจองน้อยกว่า แต่มีรายได้เฉลี่ยต่อ booking สูงกว่า **Weekday**  
+สะท้อนว่าลูกค้ามีแนวโน้มยอมจ่ายในราคาที่สูงขึ้นในช่วงวันหยุด
+
+📌 **Impact:**  
+โรงแรมสามารถใช้ **Dynamic Pricing** เพื่อเพิ่มรายได้ในช่วง Weekend ได้มากขึ้น  
+โดยเน้นการตั้งราคาตาม demand แทนการเน้นเพิ่มจำนวน booking เพียงอย่างเดียว
 
 ---
 
@@ -166,8 +210,26 @@ SEG_LEI เป็นกลุ่ม **High Volume**
 ### Average Revenue per Booking by Customer Segment
 ![Average Revenue per Booking by Customer Segment](images/customer_segment_revenue_per_booking.png)
 
+📌 **Insight:**  
+กลุ่ม **SEG_TRA** มีรายได้เฉลี่ยต่อ booking สูงที่สุด รองลงมาคือ **SEG_GRP**  
+ขณะที่ **SEG_LEI** และ **SEG_BUS** มีรายได้ต่อ booking ต่ำกว่า
+
+📌 **Impact:**  
+ผลลัพธ์นี้สะท้อนว่าลูกค้าบางกลุ่มมีมูลค่าทางธุรกิจสูงกว่า  
+โรงแรมควรเพิ่ม focus ไปยังกลุ่ม **High Value Segment** เช่น SEG_TRA เพื่อเพิ่มรายได้เฉลี่ยต่อ booking ในระยะยาว
+
+---
+
 ### Number of Bookings by Customer Segment
 ![Number of Bookings by Customer Segment](images/customer_segment_number_of_bookings.png)
+
+📌 **Insight:**  
+**SEG_LEI** มีจำนวนการจองสูงที่สุดอย่างชัดเจน จัดเป็นกลุ่ม **High Volume**  
+ขณะที่ **SEG_TRA** และ **SEG_GRP** มีจำนวนการจองต่ำกว่า
+
+📌 **Impact:**  
+แม้กลุ่ม High Volume จะช่วยสร้าง occupancy แต่ไม่ได้หมายความว่าจะสร้างรายได้ต่อ booking สูงที่สุด  
+ดังนั้นโรงแรมควรปรับสมดุลระหว่างลูกค้า **High Volume** และ **High Value** เพื่อเพิ่มประสิทธิภาพด้านรายได้โดยรวม
 
 ---
 
@@ -177,11 +239,11 @@ SEG_LEI เป็นกลุ่ม **High Volume**
 
 ![Revenue Distribution](images/true_room_revenue_distribution.png)
 
-การกระจายของ True Room Revenue มีลักษณะ **เบ้ขวา (Right-skewed)**  
-โดยรายได้ส่วนใหญ่กระจุกตัวอยู่ในช่วงระดับกลาง (ประมาณ 2,000 – 6,000 THB)  
+การกระจายของ **True Room Revenue** มีลักษณะ **เบ้ขวา (Right-skewed)**  
+โดยรายได้ส่วนใหญ่กระจุกตัวอยู่ในช่วงระดับกลาง ประมาณ **2,000 – 6,000 THB**
 
-อย่างไรก็ตาม มี booking บางส่วนที่มีมูลค่าสูงมาก ซึ่งทำให้ค่าเฉลี่ย (Mean) สูงขึ้น  
-สะท้อนถึงการมี **High-value booking** เช่น ลูกค้ากลุ่มพรีเมียมหรือ group booking
+อย่างไรก็ตาม มี booking บางส่วนที่มีมูลค่าสูงมาก ซึ่งส่งผลให้ค่าเฉลี่ย (Mean) สูงขึ้น  
+สะท้อนถึงการมี **High-value booking** เช่น ลูกค้ากลุ่มพรีเมียมหรือ **group booking**
 
 ---
 
@@ -205,24 +267,130 @@ SEG_LEI เป็นกลุ่ม **High Volume**
 
 ---
 
-# 📌 Key Findings
+# 💡 Key Findings and Insights
 
-- Direct และ Corporate มีประสิทธิภาพด้านรายได้สูงกว่า OTA
-- Promotion ช่วยเพิ่ม demand แต่ลดรายได้ต่อ booking
-- Weekday ขับเคลื่อนรายได้ด้วย **volume** ขณะที่ Weekend ขับเคลื่อนด้วย **value**
-- Customer Segment มีความแตกต่างระหว่าง High Volume และ High Value อย่างชัดเจน
+จากการวิเคราะห์ข้อมูลการจองของโรงแรม Azure Stay พบประเด็นสำคัญที่สะท้อนโครงสร้างรายได้และโอกาสในการปรับกลยุทธ์ด้าน Revenue Management ดังนี้
+
+### 1. ประสิทธิภาพของช่องทางการจอง (Channel Performance)
+- ช่องทาง **Direct** และ **Corporate** มีรายได้เฉลี่ยต่อ booking สูงกว่าช่องทาง **OTA** อย่างชัดเจน
+- ในทางกลับกัน ช่องทาง OTA เช่น Booking และ Expedia แม้ช่วยสร้างการจอง แต่มีต้นทุนค่าคอมมิชชั่น ทำให้รายได้สุทธิต่อ booking ต่ำกว่า
+
+📌 Insight:  
+โรงแรมควรลดการพึ่งพา OTA ในระยะยาว และเพิ่มสัดส่วน Direct Booking เพื่อปรับปรุง profitability
+
+---
+
+### 2. ผลของกลยุทธ์ด้านราคา (Pricing Strategy Effect)
+- Rate Code ที่เป็นโปรโมชั่น เช่น **RC_PROMO** มีจำนวนการจองสูง (High Demand) แต่สร้างรายได้เฉลี่ยต่อ booking ต่ำ
+- ขณะที่ Rate Code ปกติ เช่น **RC_RACK** มีรายได้ต่อ booking สูงกว่า แต่มีจำนวนการจองน้อยกว่า
+
+📌 Insight:  
+โปรโมชั่นช่วยกระตุ้น demand ได้จริง แต่มี trade-off กับรายได้ต่อ booking จึงควรใช้เฉพาะในช่วง low demand หรือใช้กับลูกค้าบางกลุ่มอย่างมีกลยุทธ์
+
+---
+
+### 3. ความแตกต่างระหว่าง Weekday และ Weekend (Demand Timing Pattern)
+- **Weekday** มีจำนวนการจองสูงกว่า สะท้อนการขับเคลื่อนรายได้ด้วยปริมาณการจอง (Volume-driven)
+- **Weekend** มีรายได้เฉลี่ยต่อ booking สูงกว่า สะท้อนการขับเคลื่อนรายได้ด้วยมูลค่าต่อ booking (Value-driven)
+
+📌 Insight:  
+โรงแรมควรใช้ pricing strategy ที่แตกต่างกันตามช่วงเวลา โดย Weekday เน้น occupancy และ Weekend เน้นการเพิ่มรายได้ต่อ booking
+
+---
+
+### 4. คุณค่าทางธุรกิจของลูกค้าแต่ละกลุ่ม (Customer Segment Value)
+- กลุ่ม **SEG_LEI** มีจำนวนการจองสูงที่สุด จัดเป็นกลุ่ม **High Volume**
+- กลุ่ม **SEG_TRA** มีรายได้เฉลี่ยต่อ booking สูงที่สุด จัดเป็นกลุ่ม **High Value**
+
+📌 Insight:  
+ลูกค้าแต่ละ segment ไม่ได้มีคุณค่าทางธุรกิจเท่ากัน โรงแรมควรเพิ่ม focus ไปยังกลุ่ม High Value มากขึ้น เพื่อยกระดับรายได้เฉลี่ยในระยะยาว
+
+---
+
+### 5. ภาพรวมเชิงกลยุทธ์ (Overall Business Implication)
+- ปัญหารายได้ของโรงแรมไม่ได้เกิดจากจำนวนการจองน้อยเพียงอย่างเดียว
+- แต่เกิดจากโครงสร้างรายได้ที่ยังไม่เหมาะสม ทั้งในมิติของช่องทาง ราคา ช่วงเวลา และกลุ่มลูกค้า
+
+📌 Insight:  
+Azure Stay ยังมีโอกาสเพิ่มรายได้ได้อีก ผ่านการใช้ **Dynamic Pricing**, การเพิ่ม **Direct Booking**, และการบริหารสัดส่วนลูกค้าให้สมดุลระหว่าง **High Volume** และ **High Value**
 
 ---
 
 # 💡 9. Strategic Recommendations
 
-จากผลการวิเคราะห์ มีข้อเสนอแนะดังนี้:
+จากผลการวิเคราะห์ข้อมูลด้าน Channel, Pricing, Time และ Customer Segment  
+สามารถสรุปข้อเสนอเชิงกลยุทธ์เพื่อเพิ่มรายได้ (Revenue Optimization) ได้ดังนี้:
 
-- เพิ่มสัดส่วน **Direct Booking** เพื่อลดต้นทุนค่าคอมมิชชั่นจาก OTA
-- ใช้ **Dynamic Pricing** ให้เหมาะสมกับช่วงเวลา โดยเฉพาะ Weekend
-- ใช้โปรโมชั่นอย่างระมัดระวัง เพื่อไม่ให้กระทบรายได้ต่อ booking มากเกินไป
-- เพิ่ม focus ไปยังลูกค้ากลุ่ม **High Value Segment**
-- ใช้ข้อมูล demand และ booking pattern เพื่อสนับสนุนการตัดสินใจด้าน Revenue Management
+---
+
+### 1. 📈 เพิ่มสัดส่วน Direct Booking (Channel Optimization)
+- ลดการพึ่งพา OTA ที่มีค่าคอมมิชชั่นสูง
+- ส่งเสริมช่องทาง Direct เช่น Website / Walk-in / Corporate Deal
+- ใช้โปรโมชั่นเฉพาะช่องทาง Direct เพื่อดึงลูกค้าเข้ามาโดยตรง
+
+📌 Impact:
+- เพิ่ม Net Revenue ต่อ booking
+- ลดต้นทุนค่าคอมมิชชั่นระยะยาว
+
+---
+
+### 2. 💰 ใช้ Dynamic Pricing ตาม Demand (Pricing Strategy)
+- ปรับราคาห้องพักให้สูงขึ้นในช่วงที่ demand สูง (เช่น Weekend)
+- ใช้ข้อมูล booking pattern เพื่อกำหนดราคาที่เหมาะสมในแต่ละช่วงเวลา
+
+📌 Insight รองรับ:
+- Weekend demand สูง แต่ ADR ยังเพิ่มไม่มาก → ยังมี room ให้ขึ้นราคา
+
+📌 Impact:
+- เพิ่มรายได้โดยไม่ต้องเพิ่มจำนวน booking
+
+---
+
+### 3. 🎯 บริหาร Rate Code อย่างมี Strategy (Promotion Optimization)
+- ใช้โปรโมชั่น (RC_PROMO) เพื่อกระตุ้น demand ในช่วง low demand เท่านั้น
+- หลีกเลี่ยงการใช้ promo ในช่วง demand สูง (จะเสียโอกาสทำกำไร)
+- แยก segment ลูกค้าให้ชัดว่าใครควรได้ discount
+
+📌 Insight รองรับ:
+- Promo → booking สูง แต่ revenue ต่อ booking ต่ำ (trade-off)
+
+📌 Impact:
+- Balance ระหว่าง Volume และ Profit
+
+---
+
+### 4. 👥 โฟกัส High Value Customer Segment (Customer Strategy)
+- เพิ่ม focus ไปที่ segment ที่มีรายได้ต่อ booking สูง (เช่น SEG_TRA / SEG_GRP)
+- ออกแบบ package หรือ premium offering สำหรับลูกค้ากลุ่มนี้
+- ใช้ loyalty program เพื่อรักษาลูกค้ามูลค่าสูง
+
+📌 Insight รองรับ:
+- บาง segment มี High Volume แต่ Low Value
+- บาง segment มี Low Volume แต่ High Value
+
+📌 Impact:
+- เพิ่ม Average Revenue ต่อ booking (ADR)
+
+---
+
+### 5. 📊 ใช้ Data-Driven Decision ใน Revenue Management
+- ใช้ข้อมูล Demand, Channel, Segment และ Pricing ร่วมกันในการตัดสินใจ
+- สร้าง dashboard (Tableau) สำหรับ monitor performance แบบ real-time
+- วางแผน capacity และ pricing ล่วงหน้าจาก historical data
+
+📌 Impact:
+- ตัดสินใจได้แม่นยำขึ้น
+- เพิ่มประสิทธิภาพการบริหารรายได้ (Revenue Management)
+
+---
+
+## ✅ Overall Business Impact
+
+- เพิ่มรายได้ต่อ booking (ADR)
+- ลดต้นทุนจาก commission
+- ใช้ demand ให้เกิดประโยชน์สูงสุด
+- ปรับ pricing ได้เหมาะสมกับตลาด
+- สร้างความได้เปรียบเชิงการแข่งขันในระยะยาว
 
 ---
 
@@ -272,3 +440,16 @@ azure-stay-revenue-analysis/
 ├── slides/
 │   └── Azure_Stay_Revenue_Analysis.pdf
 └── README.md
+```
+
+---
+
+## 12. รายชื่อผู้จัดทำ (Contributors)
+
+โครงการนี้จัดทำขึ้นโดยสมาชิกในทีมดังต่อไปนี้
+
+- ก้องภพ เลาหะพิพัฒน์ชัย 66102010231
+- ภคพล  ต้นสาลี 66102010243
+- แอนดี้  ทองลิบ 66102010247
+
+---
