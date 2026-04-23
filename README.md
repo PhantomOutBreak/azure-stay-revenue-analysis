@@ -568,9 +568,10 @@ azure-stay-revenue-analysis/
 │   ├── revenue_vs_commission.png
 │   ├── true_room_revenue_distribution.png
 │   └── eda_outlier_revenue.png
-├── tableau/
-│   ├── Hotel_Tableau_Dashbord.twb
-│   └── Tabluea_Dashbord_Image.png
+tableau/
+ ├── README.md
+ ├── Hotel_Tableau_Dashbord.twb
+ └── Tabluea_Dashbord_Image.png
 ├── slides/
     ├── Azure_Stay_Presentation.pptx   
 │   └── Azure_Stay_Presentation.pdf
