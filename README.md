@@ -521,14 +521,22 @@ Azure Stay ยังมีโอกาสเพิ่มรายได้ได
 
 # 📈 11. Dashboard
 
-โครงการนี้มีการจัดทำ Dashboard ใน Tableau เพื่อสรุปผลการวิเคราะห์ในมิติต่าง ๆ ได้แก่:
+Dashboard นี้ถูกพัฒนาด้วย Tableau เพื่อสรุปผลการวิเคราะห์ธุรกิจโรงแรม Azure Stay ในมิติสำคัญ ได้แก่ Booking Channel, Rate Code, Day Type และ Customer Segment
 
-- Booking Channel
-- Rate Code
-- Day Type
-- Customer Segment
+ผู้ใช้งานสามารถใช้ Dashboard นี้เพื่อติดตามแนวโน้มรายได้ (Revenue), จำนวนการจอง (Demand), และเปรียบเทียบประสิทธิภาพของแต่ละช่องทางการขายหรือกลุ่มลูกค้าได้อย่างรวดเร็วในหน้าเดียว
+
+Dashboard นี้ช่วยสนับสนุนการตัดสินใจด้าน Revenue Management เช่น การปรับราคา การเลือกช่องทางขาย และการวางแผนกลยุทธ์ทางธุรกิจจากข้อมูลจริง
+
+![Dashboard](tableau/Tabluea_Dashbord_Image.png)
 
 Dashboard นี้ช่วยให้สามารถมองเห็นภาพรวมของรายได้และ demand ได้ในหน้าเดียว และสนับสนุนการตัดสินใจเชิงธุรกิจได้อย่างมีประสิทธิภาพ
+
+### Key Uses of Dashboard
+- ติดตามรายได้เฉลี่ยตามช่องทางการจอง
+- วิเคราะห์ผลกระทบของโปรโมชั่นและ Rate Code
+- เปรียบเทียบ Weekday vs Weekend
+- ระบุกลุ่มลูกค้า High Volume / High Value
+- สนับสนุนการตัดสินใจเชิงกลยุทธ์
 
 ---
 
@@ -561,9 +569,11 @@ azure-stay-revenue-analysis/
 │   ├── true_room_revenue_distribution.png
 │   └── eda_outlier_revenue.png
 ├── tableau/
-│   └── azure_stay_dashboard.twbx
+│   ├── Hotel_Tableau_Dashbord.twb
+│   └── Tabluea_Dashbord_Image.png
 ├── slides/
-│   └── Azure_Stay_Revenue_Analysis.pdf
+    ├── Azure_Stay_Presentation.pptx   
+│   └── Azure_Stay_Presentation.pdf
 └── README.md
 ```
 
@@ -578,3 +588,8 @@ azure-stay-revenue-analysis/
 - แอนดี้  ทองลิบ 66102010247
 
 ---
+
+# 🧑‍💻 Presentation Documents
+
+- 📄 [Presentation (PDF)](slides/Azure_Stay_Presentation.pdf)
+- 📊 [Presentation (PPTX)](slides/Azure_Stay_Presentation.pptx)
