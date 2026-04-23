@@ -1,22 +1,24 @@
 # Tableau Dashboard
 
-โฟลเดอร์นี้ใช้สำหรับจัดเก็บไฟล์ Dashboard ที่สร้างด้วย Tableau สำหรับโครงการ Azure Stay Revenue Analysis
+This folder contains Tableau dashboard files created for the **Azure Stay Revenue Analysis** project.
 
-## Files
+## Files Included
 
-### Hotel_Tableau_Dashbord.twb
-ไฟล์ Tableau Workbook หลัก ใช้สำหรับเปิดและแก้ไข Dashboard ภายใน Tableau Desktop
+### 📊 Hotel_Tableau_Dashbord.twb
+Main Tableau Workbook file used to build and edit the dashboard in Tableau Desktop.
 
-### Tabluea_Dashbord_Image.png
-ไฟล์ภาพตัวอย่าง Dashboard สำหรับใช้แสดงผลใน README รายงาน หรือสไลด์นำเสนอ
+### 🖼️ Tabluea_Dashbord_Image.png
+Preview image of the final dashboard used in the README, report, and presentation slides.
 
 ## Dashboard Purpose
 
-Dashboard นี้ถูกออกแบบเพื่อสรุปผลการวิเคราะห์ในมิติสำคัญ ได้แก่:
+The dashboard was designed to summarize key business insights in one view, including:
 
-- Booking Channel
-- Rate Code
-- Day Type
-- Customer Segment
+- Booking Channel Performance
+- Rate Code Revenue & Demand
+- Weekday vs Weekend Analysis
+- Customer Segment Performance
 
-โดยช่วยให้ผู้บริหารสามารถติดตาม Revenue และ Demand ได้ในหน้าเดียว
+## Business Value
+
+This dashboard helps management quickly monitor both **Revenue** and **Demand** patterns, supporting more effective data-driven decisions in pricing and revenue management.
