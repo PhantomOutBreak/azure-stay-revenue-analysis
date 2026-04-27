@@ -701,4 +701,4 @@ azure-stay-revenue-analysis/
 # 🧑‍💻 Presentation Documents
 
 - 📄 [Presentation (PDF)](slides/Azure_Stay_Revenue_Analysis.pdf)
-- 📊 [Presentation (PPTX)](slides/Azure_Stay_Presentation.pptx)
+- 📊 [Presentation (PPTX)](slides/Azure_Stay_Revenue_Analysis.pptx)
