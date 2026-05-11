@@ -682,6 +682,9 @@ azure-stay-revenue-analysis/
 │   ├── Azure_Stay_Presentation.pptx
 │   └── Azure_Stay_Presentation.pdf
 
+├── video
+└── README.md
+
 ├── LICENSE
 └── README.md
 ```
