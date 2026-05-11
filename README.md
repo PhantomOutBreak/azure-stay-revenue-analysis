@@ -705,3 +705,14 @@ azure-stay-revenue-analysis/
 
 - 📄 [Presentation (PDF)](slides/Azure_Stay_Revenue_Analysis.pdf)
 - 📊 [Presentation (PPTX)](slides/Azure_Stay_Revenue_Analysis.pptx)
+
+---
+
+## 🎥 Demo Video
+
+This video demonstrates the Azure Stay Revenue Analysis dashboard, EDA process, business insights, and recommendations.
+
+- ▶️ [Watch Demo Video](https://drive.google.com/file/d/1-jCN_m-jKS2pOv3zqrxboEBTdsXPkg24/view?usp=drivesdk)
+- ▶️ [Watch Link_Youtube](https://www.youtube.com/watch?v=kQQtxao_jDc)
+
+---
